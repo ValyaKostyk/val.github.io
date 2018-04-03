@@ -1,0 +1,80 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.content {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 15% 0;
+    width: 20%;  /* i'm assuming full width */
+    height: 100%; /* change it to desired width */
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.navigation-bar a,li{
+  font-size: 20px;
+/*display: block;*/
+  text-decoration: none;
+  padding: 5px;
+  text-align:left;
+  opacity: 0.7;
+  display: block;
+}
+.navigation-bar a:hover{
+  background-color: #ccc;
+color: black;
+}
+#signBtn{
+  top: 0;
+  position: fixed;
+  text-align: center;
+  padding: 7px;
+  font-size: 15px;
+  border: none;
+  right: 0;
+  cursor: pointer;
+}
+
+#homebtn{
+    font-family: 'Rouge Script', cursive;
+    font-size: 60px;
+    line-height: 48px;
+    margin: 0 0 50px;
+    text-align: center;
+     text-shadow: 2px 3px 2px #082b34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #ccccff;
+  padding: 10% 20%;
+}
+
+#myBtn {
+top: 0;
+    position: fixed;
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  height: 55%;
+  background-image: url('E:/hiking web/imgRef/forest-landscape-mountain-range-129105.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}

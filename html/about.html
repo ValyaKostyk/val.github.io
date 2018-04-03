@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+  <title>About </title>
+<link rel="stylesheet" type="text/css" href="E:\hiking web\css\mainstyles.css">
+<link rel="stylesheet" type="text/css" href="E:\hiking web\css\about.css">
+<link rel="stylesheet" type="text/css" href="E:\hiking web\css\signup.css">
+</head>
+
+<body>
+  <div class="bg">
+  <h1>About</h1>
+  <div class="text"> <p> Ukraine is a wonderful country for an active tourism.
+   By an active tourism we mean trekking, hiking and backpacking.
+  Let's  see what Ukraine can offer us.</p>
+<p>
+  Trekking implies long walks in the highland with a small amount
+  of equipment. Perfect places for trekking are the Carpathians and
+  the Crimean mountains which are famous for their
+  indescribable nature. Mountain violent rivers,
+  picturesque views and fresh air are the earnest
+  of successful trekking.</p>
+
+  <p>The term backpacking speaks for itself,
+    it means travelling on a long distances with provisions
+    and different equipment obvious for such trips. For backpacking there are such popular routes as Shatsky
+       Lakes or valleys  of Kamenets-Podolsky etc.</p>
+
+    <p>
+      Hiking is similar to trekking but such travels
+      are short and don't even imply spending nights
+      somewhere in camping or hotels. This variant is the
+       best for the beginners; they can exercise their forces
+        without overstraining themselves. People usually hike in
+        the Carpathians, there are special routes for the short
+         walks which can give you an opportunity to fall in love with
+          Ukrainian wild nature.
+    </p></div>
+ </div>
+
+ <div id="id01" class="modal">
+   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+   <form class="modal-content" action="/action_page.php">
+     <div class="container">
+       <h1>Sign Up</h1>
+       <p>Please fill in this form to create an account.</p>
+       <hr>
+       <label for="name" class="col-sm-4 col-form-label">Name</label>
+       <input type="text" class="form-control" id="name" placeholder="">
+
+
+       <label for="email"><b>Email</b></label>
+       <input type="text" placeholder="Enter Email" name="email" required>
+
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+
+       <label for="psw-repeat"><b>Repeat Password</b></label>
+       <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+
+
+           <label for="gender" class="col-sm-4 col-form-label">Стать</label>
+
+               <select >
+                   <option>Male</option>
+                   <option>Female</option>
+               </select>
+
+
+
+
+       <label>
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+       </label>
+
+
+       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+       <div class="clearfix">
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+         <button type="submit" class="signupbtn">Sign Up</button>
+       </div>
+     </div>
+   </form>
+ </div>
+
+ <script>
+ // Get the modal
+ var modal = document.getElementById('id01');
+
+ // When the user clicks anywhere outside of the modal, close it
+ window.onclick = function(event) {
+     if (event.target == modal) {
+         modal.style.display = "none";
+     }
+ }
+ </script>
+  <div class="navcontent">
+
+    <button id="signBtn" onclick="document.getElementById('id01').style.display='block'"
+    style="width:auto;">Sign up</button>
+
+
+  <a id="homebtn" href="E:\hiking web\html\index.html"> <h1> Hiking in Ukraine</h1> </a>
+    <nav class="navigation-bar">
+  <ul>
+
+    <li>  <a class="active" href="E:\hiking web\html\about.html">About</a></li>
+    <li>  <a href="E:\hiking web\html\trale.html">Hiking Trales</a></li>
+    <li>  <a href="E:\hiking web\html\inspiration.html">Inspiration</a></li>
+    <li>  <a href="E:\hiking web\html\getInT.html">Contact</a></li>
+  </ul>
+    </nav>
+  </div>
+</body>
+</html>
